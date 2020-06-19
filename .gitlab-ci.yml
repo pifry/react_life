@@ -1,7 +1,7 @@
 image: docker:latest
 
 before_script:
-    - apk add --update make
+    - apk add --update make docker-compose
 
 tests:
     script:
