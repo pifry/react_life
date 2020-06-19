@@ -1,5 +1,6 @@
-before-script:
+before_script:
     apt-get update -qq && apt-get install -y build-essential
+    
 tests:
     script:
         - make test
