@@ -1,0 +1,16 @@
+version: "3.7"
+
+services:
+    create:
+      build:
+        context: .
+        dockerfile: Dockerfile.dev
+      volumes:
+        - .:/usr/src/app
+    dev:
+      build:
+        context: .
+        dockerfile: Dockerfile.dev
+      volumes:
+        - ./my_app:/usr/src/app
+   
