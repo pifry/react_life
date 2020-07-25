@@ -47,11 +47,11 @@ table.Grid {
 }
 
 table.Grid tr {
-  height: 60px;
+  height: 20px;
 }
 
 table.Grid tr td {
-  width: 60px;
+  width: 20px;
 }
 
 .tile {
@@ -65,9 +65,5 @@ table.Grid tr td {
 }
 
 .dead {
-  background-color: red;
-}
-
-.inactive {
   background-color: white;
 }
